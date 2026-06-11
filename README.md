@@ -1,36 +1,40 @@
 # Dimsum Analyst Bot 🥟
 
-Telegram bot buat catat penjualan, laporan, dan insight bisnis UMKM.
+Telegram bot for sales tracking, reporting, and business analytics — built for **Dumpling Warehouse Project**, a real UMKM based in Cianjur, Indonesia.
 
-## Fitur
+📸 **Instagram:** [@dumpling_warehouseproject](https://instagram.com/dumpling_warehouseproject)
+
+## Features
 
 - **Natural language input:** `jual 5 dimsum 3 mentai 2 gyoza`
-- **Laporan harian/mingguan/bulanan** + chart
-- **Profit tracking** — otomatis hitung margin dari HPP
-- **AI Insight** — rekomendasi bisnis dari data penjualan
-- **Biaya operasional** — sewa, gaji, dll
-- **Export CSV**
+- **Daily / weekly / monthly reports** with charts
+- **Profit tracking** — auto-calculates margin from HPP (cost of goods)
+- **AI Insight** — business recommendations based on sales data
+- **Operational expenses** — rent, wages, etc.
+- **CSV export**
 
 ## Menu
 
-🥟 **Dimsum** — Rp17.000
-🥟 **Dimsum Mentai** — Rp18.000
-🥟 **Gyoza** — Rp17.000
-🥟 **Ekado** — Rp17.000
-🥟 **Tofu** — Rp17.000
-🥟 **Mix Dimsum** — Rp20.000
+| Item | Price |
+|------|-------|
+| 🥟 Dimsum | Rp17.000 |
+| 🥟 Dimsum Mentai | Rp18.000 |
+| 🥟 Gyoza | Rp17.000 |
+| 🥟 Ekado | Rp17.000 |
+| 🥟 Tofu | Rp17.000 |
+| 🥟 Mix Dimsum | Rp20.000 |
 
-> 📊 Detail analisis profit, margin, dan insight bisnis via [@dumplingwarehouseproject_bot](https://t.me/dumplingwarehouseproject_bot)
+> Menu and prices maintained by the owner. Profit margin data is private — check the bot.
 
 ## Tech Stack
 
 - Python 3.12
 - python-telegram-bot
-- matplotlib (chart)
-- Google Sheets API (opsional)
+- matplotlib (charts)
+- Google Sheets API (optional)
 - Local JSON storage (fallback)
 
-## Cara Jalankan
+## Run Locally
 
 ```bash
 git clone <repo-url>
@@ -39,20 +43,24 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Isi token
+# Set up your token
 cp .env.example .env
-# edit .env → isi TELEGRAM_TOKEN
+# edit .env → fill in TELEGRAM_TOKEN
 
 python3 bot.py
 ```
 
-## Struktur
+## Structure
 
 ```
-├── bot.py       # Main bot — handler + command
+├── bot.py       # Main bot — handlers + commands
 ├── config.py    # Menu, HPP, constants
-├── sheets.py    # Database (JSON → Google Sheets ready)
+├── sheets.py    # Database layer (JSON → Google Sheets ready)
 ├── chart.py     # Chart generator (matplotlib)
 ├── ai.py        # AI insight (9router)
 └── .env.example # Template config
 ```
+
+## License
+
+Private — internal business tool.
