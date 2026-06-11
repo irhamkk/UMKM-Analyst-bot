@@ -15,16 +15,16 @@ Telegram bot for sales tracking, reporting, and business analytics — built for
 
 ## Menu
 
-| Item | Price |
-|------|-------|
-| 🥟 Dimsum | X |
-| 🥟 Dimsum Mentai | X |
-| 🥟 Gyoza | X |
-| 🥟 Ekado | X |
-| 🥟 Tofu | X |
-| 🥟 Mix Dimsum | X |
+| Item | Price | HPP | Margin |
+|------|-------|-----|--------|
+| 🥟 Dimsum | X | X | X |
+| 🥟 Dimsum Mentai | X | X | X |
+| 🥟 Gyoza | X | X | X |
+| 🥟 Ekado | X | X | X |
+| 🥟 Tofu | X | X | X |
+| 🥟 Mix Dimsum | X | X | X |
 
-> Menu and prices maintained by the owner. Detailed profit data is private — check the bot.
+> Menu and prices maintained by the owner.
 
 ## Tech Stack
 
