@@ -17,12 +17,12 @@ Telegram bot for sales tracking, reporting, and business analytics — built for
 
 | Item | Price | HPP | Margin |
 |------|-------|-----|--------|
-| 🥟 Dimsum | X | X | X |
-| 🥟 Dimsum Mentai | X | X | X |
-| 🥟 Gyoza | X | X | X |
-| 🥟 Ekado | X | X | X |
-| 🥟 Tofu | X | X | X |
-| 🥟 Mix Dimsum | X | X | X |
+| 🥟 Dimsum | 17.000 | X | X |
+| 🥟 Dimsum Mentai | 18.000 | X | X |
+| 🥟 Gyoza | 17.000 | X | X |
+| 🥟 Ekado | 17.000 | X | X |
+| 🥟 Tofu | 17.000 | X | X |
+| 🥟 Mix Dimsum | 20.000 | X | X |
 
 > Menu and prices maintained by the owner.
 
