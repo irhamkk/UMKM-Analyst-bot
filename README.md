@@ -8,7 +8,7 @@ Telegram bot for sales tracking, reporting, and business analytics — built for
 
 - **Natural language input:** `jual 5 dimsum 3 mentai 2 gyoza`
 - **Daily / weekly / monthly reports** with charts
-- **Profit tracking** — auto-calculates margin from HPP (cost of goods)
+- **Profit tracking** — auto-calculates margin from cost of goods
 - **AI Insight** — business recommendations based on sales data
 - **Operational expenses** — rent, wages, etc.
 - **CSV export**
@@ -17,14 +17,14 @@ Telegram bot for sales tracking, reporting, and business analytics — built for
 
 | Item | Price |
 |------|-------|
-| 🥟 Dimsum | Rp17.000 |
-| 🥟 Dimsum Mentai | Rp18.000 |
-| 🥟 Gyoza | Rp17.000 |
-| 🥟 Ekado | Rp17.000 |
-| 🥟 Tofu | Rp17.000 |
-| 🥟 Mix Dimsum | Rp20.000 |
+| 🥟 Dimsum | X |
+| 🥟 Dimsum Mentai | X |
+| 🥟 Gyoza | X |
+| 🥟 Ekado | X |
+| 🥟 Tofu | X |
+| 🥟 Mix Dimsum | X |
 
-> Menu and prices maintained by the owner. Profit margin data is private — check the bot.
+> Menu and prices maintained by the owner. Detailed profit data is private — check the bot.
 
 ## Tech Stack
 
@@ -54,7 +54,7 @@ python3 bot.py
 
 ```
 ├── bot.py       # Main bot — handlers + commands
-├── config.py    # Menu, HPP, constants
+├── config.py    # Menu, prices, constants
 ├── sheets.py    # Database layer (JSON → Google Sheets ready)
 ├── chart.py     # Chart generator (matplotlib)
 ├── ai.py        # AI insight (9router)
