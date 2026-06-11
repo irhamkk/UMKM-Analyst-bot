@@ -13,14 +13,14 @@ Telegram bot buat catat penjualan, laporan, dan insight bisnis UMKM.
 
 ## Menu
 
-| Item | Harga | HPP | Margin |
-|------|:----:|:---:|:------:|
-| Dimsum | Rp17.000 | Rp8.000 | 52,9% |
-| Dimsum Mentai | Rp18.000 | Rp8.500 | 52,8% |
-| Gyoza | Rp17.000 | Rp6.500 | 61,8% 🔥 |
-| Ekado | Rp17.000 | Rp9.500 | 44,1% |
-| Tofu | Rp17.000 | Rp11.000 | 35,3% |
-| Mix Dimsum | Rp20.000 | Rp12.000 | 40,0% |
+🥟 **Dimsum** — Rp17.000
+🥟 **Dimsum Mentai** — Rp18.000
+🥟 **Gyoza** — Rp17.000
+🥟 **Ekado** — Rp17.000
+🥟 **Tofu** — Rp17.000
+🥟 **Mix Dimsum** — Rp20.000
+
+> 📊 Detail analisis profit, margin, dan insight bisnis via [@dumplingwarehouseproject_bot](https://t.me/dumplingwarehouseproject_bot)
 
 ## Tech Stack
 
